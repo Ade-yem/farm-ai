@@ -1,0 +1,32 @@
+{
+  "testimonials": [
+    {
+      "name": "Joseph Musyoki",
+      "location": "Nairobi, Kenya",
+      "quote": "FarmAI has transformed how I manage my maize farm. The pest detection feature saved my entire season when I caught a disease early. The app pays for itself!",
+      "rating": 5,
+      "avatar": "/testimonials/joseph.jpg"
+    },
+    {
+      "name": "Maria Garcia",
+      "location": "Lima, Peru",
+      "quote": "As a smallholder farmer, I never had access to expert advice before. Now I can get instant recommendations on fertilizers and weather. My yields have increased by 30%!",
+      "rating": 5,
+      "avatar": "/testimonials/maria.jpg"
+    },
+    {
+      "name": "Ahmed Ibrahim",
+      "location": "Kano, Nigeria",
+      "quote": "The offline feature is a game-changer for us in rural areas. Even without internet, I can identify crop issues and get solutions. FarmAI truly understands African farmers.",
+      "rating": 5,
+      "avatar": "/testimonials/ahmed.jpg"
+    },
+    {
+      "name": "Priya Sharma",
+      "location": "Punjab, India",
+      "quote": "The market price tracker helped me sell my wheat at the perfect time, earning me 20% more than usual. The financial tools are incredibly useful for planning.",
+      "rating": 5,
+      "avatar": "/testimonials/priya.jpg"
+    }
+  ]
+}

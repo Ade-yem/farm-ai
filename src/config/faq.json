@@ -1,0 +1,88 @@
+{
+  "categories": [
+    {
+      "category": "General",
+      "questions": [
+        {
+          "question": "What is FarmAI?",
+          "answer": "FarmAI is an AI-powered, multilingual farming companion that helps farmers solve crop problems using voice, text, or images. It provides real-time insights, AI-powered recommendations, and community-driven support to help farmers grow smarter and more sustainably."
+        },
+        {
+          "question": "Is FarmAI available offline?",
+          "answer": "Yes! FarmAI works offline for core features like crop problem detection and fertilizer recommendations. Once you download the app, you can access most features without an internet connection."
+        },
+        {
+          "question": "What languages does FarmAI support?",
+          "answer": "FarmAI supports over 20 languages including English, Spanish, French, Swahili, Hindi, Mandarin, and many local African languages to ensure farmers can use the app in their native language."
+        },
+        {
+          "question": "How much does FarmAI cost?",
+          "answer": "FarmAI is committed to making technology accessible to farmers. We offer a free version with core features, and premium plans for advanced analytics and personalized support."
+        }
+      ]
+    },
+    {
+      "category": "Technical",
+      "questions": [
+        {
+          "question": "How does the AI crop recommender work?",
+          "answer": "Our AI analyzes your soil composition, local climate data, market trends, and historical farming patterns to recommend the best crops for your specific location. It uses machine learning to continuously improve recommendations based on success rates."
+        },
+        {
+          "question": "Can I upload multiple crop images for disease detection?",
+          "answer": "Absolutely! You can upload multiple images from different angles of the affected crop area. Our AI combines information from all images to provide a more accurate diagnosis."
+        },
+        {
+          "question": "What devices are compatible with FarmAI?",
+          "answer": "FarmAI is available on Android and iOS smartphones. We're designed to work on both low-end and high-end devices, ensuring accessibility for all farmers."
+        },
+        {
+          "question": "How accurate is the pest detection feature?",
+          "answer": "Our pest detection system has an accuracy rate of over 95% for common pests and diseases. The accuracy improves with clear, well-lit images and detailed descriptions."
+        }
+      ]
+    },
+    {
+      "category": "Features",
+      "questions": [
+        {
+          "question": "How does the weather alert system work?",
+          "answer": "FarmAI integrates with meteorological services to provide localized 7-day weather forecasts. You'll receive alerts for severe weather conditions, optimal planting windows, and irrigation recommendations."
+        },
+        {
+          "question": "Can I track my farming expenses in the app?",
+          "answer": "Yes! Our financial planning tools allow you to track all expenses, calculate ROI for different crops, manage your farm budget, and even get loan calculator support."
+        },
+        {
+          "question": "How do I connect with other farmers on the platform?",
+          "answer": "Join our community forum where you can ask questions, share experiences, participate in expert Q&A sessions, and learn from successful farming stories across the globe."
+        },
+        {
+          "question": "Are market prices updated in real-time?",
+          "answer": "Yes, our market price tracker shows live crop prices updated throughout the day. You can also view historical price charts to identify the best times to sell your produce."
+        }
+      ]
+    },
+    {
+      "category": "Support",
+      "questions": [
+        {
+          "question": "How do I contact customer support?",
+          "answer": "You can reach us through the in-app contact form, email us directly, or connect with our community forum. Our support team is available 24/7 to assist you."
+        },
+        {
+          "question": "Do you offer training on how to use FarmAI?",
+          "answer": "Yes! We provide comprehensive tutorials within the app, video guides on our website, and regular webinars with our agricultural experts. New users also receive a guided onboarding experience."
+        },
+        {
+          "question": "What if I encounter a bug or technical issue?",
+          "answer": "Please report any bugs directly through the app's feedback section or contact our technical support team. We're committed to continuous improvement and typically resolve issues within 24-48 hours."
+        },
+        {
+          "question": "Can I provide feedback or suggest new features?",
+          "answer": "Absolutely! We love hearing from our community. Use the feedback section in the app or contact us directly with your ideas. Your input helps shape FarmAI's future development."
+        }
+      ]
+    }
+  ]
+}

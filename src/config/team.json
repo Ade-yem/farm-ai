@@ -1,0 +1,40 @@
+{
+  "members": [
+    {
+      "name": "Kolawole John Toluwalase",
+      "role": "Founder & Vision Lead",
+      "bio": "cybersecurity officer, business developer, product designer, customer support/customer relation manager,tech support.",
+      "image": "/team/john.jpg"
+    },
+    {
+      "name": "Fehintola Ruth Funmilola",
+      "role": "Account Officer",
+      "bio": " Fehintola Ruth Funmilola, an Accounting graduate from The Polytechnic Ibadan, embarked on a career in finance, leveraging her analytical skills and strategic mindset. She currently serves as an Accounting Officer/ Admin Officer at Online Dynamics Limited, where she meticulously oversees financial reporting and strategic financial planning. Funmilola is known for her precision in financial analysis and her ability to drive results, making her a valuable asset to the financial team.",
+      "image": "/team/fehintola.jpg"
+    },
+    {
+      "name": "Oyebanji, Adedayo Samuel",
+      "role": "R&D Engineer and sustainability expert",
+      "bio": "entrepreneur.",
+      "image": "/team/oyebanji.jpg"
+    },
+    {
+      "name": "Adejumo Adeyemi",
+      "role": "Software Developer",
+      "bio": "Anything web development related.",
+      "image": "/team/adejumo.jpg"
+    },
+    {
+      "name": "Agun Emmanuel",
+      "role": "Social Media Manager",
+      "bio": " Facebook Ads Specialist & Graphic Designer. I create engaging visual designs for logos, flyers, and social media platforms. I Plan, launch, and manage Facebook Ads campaigns to increase brand awareness and sales. Successfully manage ad campaigns for DriveNation Company, resulting in higher engagement and customer inquiries..",
+      "image": "/team/agun.jpg"
+    },
+    {
+      "name": "Anuma Linus Uro ",
+      "role": "Business Development Officer",
+      "bio": "Business Developer/Policy Analyst/ Land Economist/Regional Planner/Sustainability Expert.",
+      "image": "/team/anuma.jpg"
+    }
+  ]
+}
