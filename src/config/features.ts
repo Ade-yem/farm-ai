@@ -1,4 +1,4 @@
-import { Bug, CloudRain, BarChart, Coins, Droplet, Globe2, Sprout, TestTube, Users } from "lucide-react";
+import { Bug, CloudRain, BarChart, Coins, Droplet, Globe2, Sprout, TestTube, Users, ShoppingCart } from "lucide-react";
 
 export const features = {
   "sections": [
@@ -70,6 +70,17 @@ export const features = {
     {
       "category": "Market & Economics",
       "features": [
+        {
+          "title": "Market Place",
+          "description": "Buy and sell crops directly from the app to other farmers and businesses.",
+          "icon": ShoppingCart,
+          "benefits": [
+            "Buy and sell crops directly from the app",
+            "Connect with other farmers and businesses",
+            "Secure transactions",
+            "Easy navigation"
+          ]
+        },
         {
           "title": "Market Price Tracker",
           "description": "Stay updated with real-time crop prices across markets to make informed selling decisions and maximize profits.",

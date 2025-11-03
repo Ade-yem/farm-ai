@@ -2,9 +2,9 @@ import team from "@/config/team.json";
 
 export default function Team() {
   return (
-    <div className="pt-24 pb-20">
+    <div className="pt-24">
       {/* Header */}
-      <section className="bg-linear-to-br from-primary to-[#066026] text-white py-20">
+      <section className="bg-linear-to-br from-primary to-secondary min-h-[500px] flex items-center justify-center text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold mb-6">
             Meet the Minds Behind FarmAI

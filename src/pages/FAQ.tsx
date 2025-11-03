@@ -26,9 +26,9 @@ export default function FAQ() {
     .filter((category) => category.questions.length > 0);
 
   return (
-    <div className="pt-24 pb-20">
+    <div className="pt-24 ">
       {/* Header */}
-      <section className="bg-linear-to-br from-primary to-[#066026] text-white py-20">
+      <section className="bg-linear-to-br from-primary to-secondary min-h-[500px] flex items-center justify-center text-white py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold mb-6">
             Frequently Asked Questions

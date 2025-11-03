@@ -1,12 +1,12 @@
 import FeatureCard from "@/components/FeatureCard";
-import {features} from "@/config/features";
+import { features } from "@/config/features";
 import { Check } from "lucide-react";
 
 export default function Features() {
   return (
-    <div className="pt-24 pb-20">
+    <div className="pt-24 ">
       {/* Header */}
-      <section className="bg-linear-to-br from-primary to-[#066026] text-white py-20">
+      <section className="bg-linear-to-br from-primary to-secondary min-h-[500px] flex items-center justify-center text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold mb-6">
             Comprehensive Farm Management Features
@@ -94,10 +94,10 @@ export default function Features() {
             started now and transform your farming journey.
           </p>
           <a
-            href="#contact"
+            href="/contact"
             className="inline-block bg-primary text-white px-10 py-4 rounded-xl font-bold hover:bg-primary/90 transition-colors"
           >
-            Get Started Free
+            Coming Soon
           </a>
         </div>
       </section>

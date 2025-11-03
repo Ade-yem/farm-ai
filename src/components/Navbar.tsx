@@ -32,8 +32,8 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-linear-to-r from-primary to-[#066026] shadow-lg py-4"
-          : "bg-linear-to-r from-primary to-[#066026] py-5"
+          ? "bg-linear-to-r from-secondary to-primary shadow-lg py-4"
+          : "bg-linear-to-r from-secondary to-primary py-5"
       }`}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -46,11 +46,8 @@ export default function Navbar() {
             <img
               src="/logo.png"
               alt="FarmAI logo"
-              className="h-12 w-auto bg-white rounded-full"
+              className="h-20 w-auto rounded-full bg-white"
             />
-            <div className="hidden md:block text-sm text-white/95 font-medium">
-              Empowering the hands that feed the world
-            </div>
           </Link>
 
           {/* Desktop Navigation */}

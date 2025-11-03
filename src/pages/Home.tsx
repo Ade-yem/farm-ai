@@ -66,11 +66,11 @@ export default function Home() {
                   to="/features"
                   className="bg-primary text-white px-10 py-4 rounded-xl font-semibold hover:bg-primary/90 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl text-center group"
                 >
-                  Get Started Free
+                  Coming Soon
                   <ArrowRight className="inline-block ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
                 <a
-                  href="#features"
+                  href="/features"
                   className="border-2 border-primary/30 text-primary px-10 py-4 rounded-xl font-semibold hover:bg-primary/5 hover:border-primary transition-all transform hover:scale-105 text-center"
                 >
                   Watch Demo
@@ -216,7 +216,7 @@ export default function Home() {
               How It Works
             </h2>
             <p className="text-lg text-muted">
-              Get started in three simple steps
+              Coming Soon in three simple steps
             </p>
           </div>
 
@@ -312,7 +312,7 @@ export default function Home() {
             to="/contact"
             className="inline-block bg-secondary text-primary px-10 py-4 rounded-xl font-bold hover:bg-secondary/90 transition-all transform hover:scale-105"
           >
-            Get Started Today
+            Coming Soon Today
           </Link>
         </div>
       </section>

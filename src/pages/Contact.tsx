@@ -36,9 +36,9 @@ export default function Contact() {
   };
 
   return (
-    <div className="pt-24 pb-20">
+    <div className="pt-24">
       {/* Header */}
-      <section className="bg-linear-to-br from-primary to-[#066026] text-white py-20">
+      <section className="bg-linear-to-br from-primary to-secondary min-h-[500px] text-white py-20 flex items-center justify-center">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold mb-6">Get In Touch</h1>
           <p className="text-xl text-white/90">

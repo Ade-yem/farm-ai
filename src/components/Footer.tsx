@@ -1,10 +1,11 @@
+import { Mail, Phone } from "lucide-react";
 import Newsletter from "./Newsletter";
 
 export default function Footer() {
   return (
-    <footer className="bg-linear-to-b from-bg to-white mt-20 border-t border-green-100">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+    <footer className="bg-linear-to-b from-bg to-white border-t border-green-100">
+      <div className="max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mb-8">
           {/* About Section */}
           <div>
             <img src="/logo.png" alt="FarmAI logo" className="h-20 w-auto" />
@@ -61,18 +62,6 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-
-          {/* Newsletter Section */}
-          <div>
-            <h3 className="text-lg font-bold text-primary mb-4">
-              Stay Updated
-            </h3>
-            <p className="text-muted text-sm mb-6">
-              Subscribe to our newsletter for farming tips and updates.
-            </p>
-            <Newsletter />
-          </div>
-
           {/* Social Links */}
           <div>
             <h3 className="text-lg font-bold text-primary mb-4">
@@ -109,7 +98,77 @@ export default function Footer() {
                 </svg>
                 LinkedIn
               </a>
+              <a
+                href="https://x.com/superappfarmai?t=wPjITBO5pRFz2baMg8GqEA&s"
+                target="_blank"
+                className="text-muted text-sm hover:text-primary transition-colors flex items-center gap-2"
+              >
+                <svg
+                  className="w-5 h-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  version="1.1"
+                >
+                  {" "}
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />{" "}
+                </svg>{" "}
+                X
+              </a>
+              <a
+                href="https://www.facebook.com/share/17KvZLMvNL/"
+                target="_blank"
+                className="text-muted text-sm hover:text-primary transition-colors flex items-center gap-2"
+              >
+                <svg
+                  className="w-5 h-5"
+                  fill="currentColor"
+                  viewBox="0 0 1920 1920"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    {" "}
+                    <path
+                      d="m1416.013 791.915-30.91 225.617h-371.252v789.66H788.234v-789.66H449.808V791.915h338.426V585.137c0-286.871 176.207-472.329 449.09-472.329 116.87 0 189.744 6.205 231.822 11.845l-3.272 213.66-173.5.338c-4.737-.451-117.771-9.25-199.332 65.655-52.568 48.169-79.191 117.433-79.191 205.65v181.96h402.162Zm-247.276-304.018c44.446-41.401 113.71-36.889 118.787-36.663l289.467-.113 6.204-417.504-43.544-10.717C1511.675 16.02 1426.053 0 1237.324 0 901.268 0 675.425 235.206 675.425 585.137v93.97H337v451.234h338.425V1920h451.234v-789.66h356.7l61.932-451.233H1126.66v-69.152c0-54.937 14.214-96 42.078-122.058Z"
+                      fill-rule="evenodd"
+                    ></path>{" "}
+                  </g>
+                </svg>{" "}
+                Facebook
+              </a>
+              <a
+                href="mailto:superappfarmerai@gmail.com"
+                target="_blank"
+                className="text-muted text-sm hover:text-primary transition-colors flex items-center gap-2"
+              >
+                <Mail className="w-5 h-5" />
+                Email
+              </a>
+              <a
+                href="tel:+2348100931286"
+                target="_blank"
+                className="text-muted text-sm hover:text-primary transition-colors flex items-center gap-2"
+              >
+                <Phone className="w-5 h-5" />
+                Phone
+              </a>
             </div>
+          </div>
+
+          {/* Newsletter Section */}
+          <div>
+            <h3 className="text-lg font-bold text-primary mb-4">
+              Stay Updated
+            </h3>
+            <p className="text-muted text-sm mb-6">
+              Subscribe to our newsletter for farming tips and updates.
+            </p>
+            <Newsletter />
           </div>
         </div>
 
