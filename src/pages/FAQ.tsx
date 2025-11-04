@@ -1,5 +1,6 @@
 import { useState } from "react";
 import faq from "@/config/faq.json";
+import { HeroSection } from "@/components/Hero";
 
 export default function FAQ() {
   const [openCategory, setOpenCategory] = useState<string | null>(null);
@@ -28,18 +29,8 @@ export default function FAQ() {
   return (
     <div className="pt-24 ">
       {/* Header */}
-      <section className="bg-linear-to-br from-primary to-secondary min-h-[500px] flex items-center justify-center text-white py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl font-bold mb-6">
-            Frequently Asked Questions
-          </h1>
-          <p className="text-xl text-white/90">
-            Find answers to common questions about FarmAI and how we can help
-            you succeed.
-          </p>
-        </div>
-      </section>
-
+      <HeroSection title="Frequently Asked Questions" tagline="Find answers to common questions about FarmAI and how we can help
+            you succeed." />
       {/* Search Bar */}
       <section className="py-8 bg-white border-b">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

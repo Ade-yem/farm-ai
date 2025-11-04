@@ -1,4 +1,5 @@
 import FeatureCard from "@/components/FeatureCard";
+import { HeroSection } from "@/components/Hero";
 import { features } from "@/config/features";
 import { Check } from "lucide-react";
 
@@ -6,17 +7,8 @@ export default function Features() {
   return (
     <div className="pt-24 ">
       {/* Header */}
-      <section className="bg-linear-to-br from-primary to-secondary min-h-[500px] flex items-center justify-center text-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl font-bold mb-6">
-            Comprehensive Farm Management Features
-          </h1>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto">
-            Powerful AI-driven tools designed to help you make informed
-            decisions, optimize resources, and maximize your farm's potential.
-          </p>
-        </div>
-      </section>
+      <HeroSection title="Comprehensive Farm Management Features" tagline="Powerful AI-driven tools designed to help you make informed
+            decisions, optimize resources, and maximize your farm's potential." />
 
       {/* Features by Category */}
       {features.sections.map((section, sectionIndex) => (

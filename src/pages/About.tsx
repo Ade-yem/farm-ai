@@ -1,19 +1,13 @@
+import { HeroSection } from "@/components/Hero";
 import { Eye, Rocket, Globe2, Lightbulb, Sprout } from "lucide-react";
 
 export default function About() {
   return (
     <div className="pt-24">
       {/* Header */}
-      <section className="bg-linear-to-br from-primary to-secondary text-white py-20 min-h-[500px] flex items-center justify-center">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl font-bold mb-6">About FarmAI</h1>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto">
+      <HeroSection title="About FarmAI" tagline="
             Transforming agriculture through artificial intelligence, one farm
-            at a time.
-          </p>
-        </div>
-      </section>
-
+            at a time." />
       {/* Our Story */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

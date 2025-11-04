@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Check, X } from "lucide-react";
+import { HeroSection } from "@/components/Hero";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -38,14 +39,7 @@ export default function Contact() {
   return (
     <div className="pt-24">
       {/* Header */}
-      <section className="bg-linear-to-br from-primary to-secondary min-h-[500px] text-white py-20 flex items-center justify-center">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl font-bold mb-6">Get In Touch</h1>
-          <p className="text-xl text-white/90">
-            Have a question or want to learn more? We'd love to hear from you.
-          </p>
-        </div>
-      </section>
+      <HeroSection title="Get In Touch" tagline="Have a question or want to learn more? We'd love to hear from you."/>
 
       {/* Contact Form and Info */}
       <section className="py-20 bg-white">

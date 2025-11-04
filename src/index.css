@@ -41,6 +41,10 @@ html {
   }
 }
 
+@apply {
+  gradient-text: bg-linear-to-br from-secondary to-primary;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
