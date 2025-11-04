@@ -41,8 +41,11 @@ html {
   }
 }
 
-@apply {
-  gradient-text: bg-linear-to-br from-secondary to-primary;
+.gradient-text {
+  @apply bg-linear-to-br from-secondary to-primary bg-clip-text text-transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Custom scrollbar */
