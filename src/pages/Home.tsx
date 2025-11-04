@@ -69,12 +69,12 @@ export default function Home() {
                   Coming Soon
                   <ArrowRight className="inline-block ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
-                <a
+                {/* <a
                   href="/features"
                   className="border-2 border-primary/30 text-primary px-10 py-4 rounded-xl font-semibold hover:bg-primary/5 hover:border-primary transition-all transform hover:scale-105 text-center"
                 >
                   Watch Demo
-                </a>
+                </a> */}
               </div>
             </div>
 
