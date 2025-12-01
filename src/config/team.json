@@ -14,14 +14,14 @@
     },
     {
       "name": "Oyebanji, Adedayo Samuel",
-      "role": "R&D Engineer and sustainability expert",
+      "role": "Research Manager",
       "bio": "entrepreneur.",
       "image": "/team/oyebanji.jpg"
     },
     {
       "name": "Adejumo Adeyemi",
       "role": "Software Developer",
-      "bio": "Anything web development related.",
+      "bio": "Anything web development, I am your guy.",
       "image": "/team/adejumo.jpg"
     },
     {
@@ -47,6 +47,12 @@
       "role": "Business Development Officer",
       "bio": "Business Developer/Policy Analyst/ Land Economist/Regional Planner/Sustainability Expert.",
       "image": "/team/anuma.jpg"
+    },
+    {
+      "name": "Frederick Chisom",
+      "role": "Content Creator and Idea Strategist",
+      "bio": "Content creator and idea strategist.",
+      "image": "/team/frederick.jpg"
     }
   ]
 }

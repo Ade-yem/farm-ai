@@ -1,7 +1,23 @@
-import { Bug, CloudRain, BarChart, Coins, Droplet, Globe2, Sprout, TestTube, Users, ShoppingCart } from "lucide-react";
+import {
+  Bug,
+  CloudRain,
+  BarChart,
+  Coins,
+  Droplet,
+  Globe2,
+  Sprout,
+  TestTube,
+  Users,
+  ShoppingCart,
+  Stethoscope, // New for Livestock Health
+  Syringe,     // New for Vaccination
+  Wallet,      // New for Wallet & Rewards
+  Landmark,    // New for Land Lending
+  WifiOff,     // New for Offline Access
+} from "lucide-react";
 
 export const features = {
-  "sections": [
+  sections: [
     {
       "category": "Crop Management",
       "features": [
@@ -68,6 +84,44 @@ export const features = {
       ]
     },
     {
+      "category": "Livestock Management", // 
+      "features": [
+        {
+          "title": "AI Health Diagnosis",
+          "description": "Detect livestock diseases early with AI-powered diagnostics and access an emergency vet call center immediately.",
+          "icon": Stethoscope,
+          "benefits": [
+            "AI Symptom Analysis", // [cite: 15]
+            "Emergency Vet Call Center", // [cite: 21]
+            "Disease outbreaks alerts",
+            "24/7 Expert support"
+          ]
+        },
+        {
+          "title": "Feed & Nutrition Planner",
+          "description": "Optimize livestock growth with tailored feed recommendations and nutrition plans specific to animal type and age.",
+          "icon": Sprout, // Reusing Sprout as organic feed indicator
+          "benefits": [
+            "Custom nutrition plans", // [cite: 16]
+            "Feed cost optimization",
+            "Growth tracking",
+            "Yield maximization"
+          ]
+        },
+        {
+          "title": "Vaccination Scheduler",
+          "description": "Never miss a treatment with automated vaccination schedules and digital health record keeping for your herd.",
+          "icon": Syringe,
+          "benefits": [
+            "Automated reminders", // [cite: 17]
+            "Digital health records", // [cite: 18]
+            "Compliance tracking",
+            "Treatment history"
+          ]
+        }
+      ]
+    },
+    {
       "category": "Market & Economics",
       "features": [
         {
@@ -79,6 +133,28 @@ export const features = {
             "Connect with other farmers and businesses",
             "Secure transactions",
             "Easy navigation"
+          ]
+        },
+        {
+          "title": "Land Lending & Leasing",
+          "description": "Access land opportunities or lease your unused land through our secure platform to expand your farming operations.",
+          "icon": Landmark,
+          "benefits": [
+            "Secure lease agreements", // 
+            "Land availability map",
+            "Verified ownership",
+            "Flexible tenure options"
+          ]
+        },
+        {
+          "title": "Wallet & Reward System",
+          "description": "Manage transactions securely and earn rewards for sustainable farming practices and community engagement.",
+          "icon": Wallet,
+          "benefits": [
+            "Integrated digital wallet", // 
+            "Loyalty rewards",
+            "Secure payments",
+            "Transaction history"
           ]
         },
         {
@@ -128,6 +204,17 @@ export const features = {
             "Voice commands in your language",
             "Cultural farming practices",
             "Accessibility for all"
+          ]
+        },
+        {
+          "title": "Offline & Low-Data Mode",
+          "description": "Farm without boundaries. Access core features and save data even in remote areas with poor internet connectivity.",
+          "icon": WifiOff,
+          "benefits": [
+            "Works without internet", // 
+            "Data synchronization",
+            "Low bandwidth optimization",
+            "Local storage"
           ]
         }
       ]
